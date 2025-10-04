@@ -1,0 +1,43 @@
+*{
+  margin: auto;
+}
+.box{
+  height: 400px;
+  width: 700px;
+  display: flex;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px 50px;
+  cursor: pointer;
+  background-color: transparent;
+ 
+
+  
+  
+}
+.btn:hover{
+  opacity: 0.8;
+}
+.btn--success{
+  background-color: rgb(55, 248, 52);
+
+}
+.btn--warn{
+background-color: chocolate
+}
+.btn--danger{
+background-color: brown;
+
+}
